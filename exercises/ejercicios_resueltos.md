@@ -56,12 +56,18 @@ Recorrido:
 ## Ejercicio 2
 Modifique el árbol anterior agregando los nodos 1, 3, 18 y 25. Ejecute nuevamente los recorridos.
 
+![image alt](https://github.com/michaelrosillo787-alt/repo_recorridos_arboles_uta/blob/e956e5c959b4a91b5cc8d8f49524c3d0d69a1be5/imagenes/ejercicio_2.png)
+![image alt](https://github.com/michaelrosillo787-alt/repo_recorridos_arboles_uta/blob/e956e5c959b4a91b5cc8d8f49524c3d0d69a1be5/imagenes/resultados_ejercicio_2.png)
 
 ## Ejercicio 3
 Implemente una función que cuente la cantidad total de nodos del árbol.
 
+![image alt](https://github.com/michaelrosillo787-alt/repo_recorridos_arboles_uta/blob/e956e5c959b4a91b5cc8d8f49524c3d0d69a1be5/imagenes/ejercicio_3.png)
+
 ## Ejercicio 4
 Implemente una función que cuente las hojas del árbol.
+
+![image alt](https://github.com/michaelrosillo787-alt/repo_recorridos_arboles_uta/blob/e956e5c959b4a91b5cc8d8f49524c3d0d69a1be5/imagenes/ejercicio_4.png)
 
 ## Ejercicio 5 aplicado al proyecto final
 
