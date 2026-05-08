@@ -238,4 +238,84 @@ javac Main.java
 java Main
 ```
 
+## Preguntas de reflexión sobre árboles binarios
 
+### ¿Qué recorrido sirve para ordenar valores en un BST?
+
+El recorrido **Inorden** sirve para ordenar valores en un **BST (Binary Search Tree)**.
+
+Su orden es:
+
+```text
+Izquierda → Raíz → Derecha
+```
+
+En un árbol binario de búsqueda, este recorrido imprime automáticamente los valores de menor a mayor.
+
+---
+
+### ¿Qué diferencia existe entre DFS y BFS?
+
+#### DFS (Depth First Search)
+
+DFS recorre el árbol profundizando primero en una rama antes de pasar a otra.
+
+Incluye recorridos como:
+
+- Preorden
+- Inorden
+- Postorden
+
+Se implementa normalmente usando recursividad o pilas (`Stack`).
+
+---
+
+#### BFS (Breadth First Search)
+
+BFS recorre el árbol por niveles.
+
+Primero visita todos los nodos de un nivel y luego baja al siguiente.
+
+Se implementa utilizando una cola (`Queue`).
+
+---
+
+### ¿Por qué BFS requiere una cola?
+
+BFS necesita una cola porque debe mantener el orden de llegada de los nodos.
+
+La cola trabaja con el principio:
+
+```text
+FIFO (First In, First Out)
+```
+
+Esto permite procesar primero los nodos que fueron descubiertos antes, logrando el recorrido correcto por niveles.
+
+---
+
+### ¿En qué caso real se puede usar Preorden?
+
+El recorrido **Preorden** puede usarse para mostrar menús o estructuras jerárquicas.
+
+Ejemplo:
+
+```text
+Sistema web → Módulos → Submódulos
+```
+
+Primero se muestra el elemento principal y luego sus opciones internas.
+
+También se utiliza para copiar o reconstruir árboles.
+
+---
+
+### ¿En qué caso real se puede usar Postorden?
+
+El recorrido **Postorden** puede usarse cuando primero deben procesarse los elementos hijos antes del padre.
+
+Ejemplos reales:
+
+- Eliminar carpetas y archivos en un sistema operativo.
+- Liberar memoria en estructuras dinámicas.
+- Inicializar dependencias internas antes del módulo principal.
