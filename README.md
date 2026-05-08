@@ -18,6 +18,15 @@ Al finalizar la práctica, el estudiante será capaz de:
 4. Comparar la implementación en C++ y Java.
 5. Aplicar recorridos de árboles a un caso real del proyecto final.
 
+## Características Implementadas (Novedades)
+
+El código base original fue adaptado para resolver los ejercicios planteados, incluyendo:
+1. **Menú Interactivo**: Interfaz por consola para operar sobre el árbol en tiempo real.
+2. **Insertar nodos (BST)**: Inserción dinámica que respeta las reglas de un Árbol Binario de Búsqueda.
+3. **Eliminar nodos**: Lógica segura para eliminar hojas, nodos con un hijo y nodos con dos hijos.
+4. **Contar Nodos y Hojas**: Funciones recursivas adicionales para obtener el número total de nodos y de hojas.
+5. **Precarga automática**: El árbol se inicializa por defecto con los nodos de los Ejercicios 1 y 2 `(10, 5, 15, 2, 7, 12, 20, 1, 3, 18, 25)` para facilitar las pruebas.
+
 ## Contenido
 
 | Carpeta | Descripción |
@@ -54,13 +63,13 @@ javac Main.java
 java Main
 ```
 
-## Actividad  sugerida:
+## Actividad sugerida (¡Completada en el código actual!):
 
-1. Clonar el repositorio.
-2. Ejecutar el código base.
-3. Agregar mínimo 5 nodos nuevos.
-4. Mostrar los cuatro recorridos.
-5. Modificar el caso de aplicación al proyecto final.
+1. ~~Clonar el repositorio.~~ (Hecho)
+2. ~~Ejecutar el código base.~~ (Hecho)
+3. ~~Agregar mínimo 5 nodos nuevos.~~ (Hecho: menú dinámico y precarga automática de nodos)
+4. ~~Mostrar los cuatro recorridos.~~ (Hecho: integrado en la Opción 3 del menú)
+5. ~~Modificar el caso de aplicación al proyecto final.~~ (Hecho: resuelto con la estructura de Sistema Web)
 6. Subir evidencias al repositorio GitHub del grupo.
 
 ## Entregables
