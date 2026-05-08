@@ -69,7 +69,7 @@ java Main
 2. ~~Ejecutar el código base.~~ (Hecho)
 3. ~~Agregar mínimo 5 nodos nuevos.~~ (Hecho: menú dinámico y precarga automática de nodos)
 4. ~~Mostrar los cuatro recorridos.~~ (Hecho: integrado en la Opción 3 del menú)
-5. ~~Modificar el caso de aplicación al proyecto final.~~ (Hecho: resuelto con la estructura de Sistema Web)
+5. ~~Modificar el caso de aplicación al proyecto final.~~ 
 6. Subir evidencias al repositorio GitHub del grupo.
 
 ## Entregables
