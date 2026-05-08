@@ -206,11 +206,12 @@ El programa continúa funcionando hasta que el usuario selecciona la opción:
 | Carpeta | Descripción |
 |---|---|
 | `docs/` | Guía práctica para la clase |
+| `exercises/` | Ejercicios para trabajo grupal |
+| `imagenes/` | Imagenes de evidencia |
+| `moodle/` | Banco de preguntas tipo Moodle |
 | `src/cpp/` | Implementación completa en C++ |
 | `src/java/` | Implementación completa en Java |
-| `exercises/` | Ejercicios para trabajo grupal |
-| `moodle/` | Banco de preguntas tipo Moodle |
-| `assets/` | Recursos de apoyo |
+
 
 ## Reglas de recorrido
 
@@ -237,30 +238,4 @@ javac Main.java
 java Main
 ```
 
-## Actividad sugerida (¡Completada en el código actual!):
-
-1. ~~Clonar el repositorio.~~ (Hecho)
-2. ~~Ejecutar el código base.~~ (Hecho)
-3. ~~Agregar mínimo 5 nodos nuevos.~~ (Hecho: menú dinámico y precarga automática de nodos)
-4. ~~Mostrar los cuatro recorridos.~~ (Hecho: integrado en la Opción 3 del menú)
-5. ~~Modificar el caso de aplicación al proyecto final.~~ 
-6. Subir evidencias al repositorio GitHub del grupo.
-
-## Entregables
-
-- Captura de ejecución en consola.
-- Código fuente comentado.
-- README del grupo.
-- Explicación del caso real.
-- Link del repositorio GitHub.
-
-## Rúbrica breve sobre 10 puntos
-
-| Criterio | Puntaje |
-|---|---:|
-| Implementación correcta de recorridos | 3 |
-| Uso correcto de recursividad y cola | 2 |
-| Código comentado y organizado | 1.5 |
-| Aplicación al proyecto final | 2 |
-| Uso de GitHub e IA documentada | 1.5 |
 
